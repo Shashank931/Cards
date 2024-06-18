@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+.box1{
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+
+}
+
+.box1:hover{
+    height: 550px;
+    width: 350px;
+}
+.box1 img{
+    height: 42%;
+    width: 100%;
+    border-radius: 19px 19px 0px 0px;
+}
+.textbox{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+     width: 75%; 
+     text-align: center;
+}
+
+
+.textbox h2{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+#amountbox{
+    height: 10%;
+    width: 80%;
+    margin: 4px;
+    padding: 5px;
+    background-color:#8e9eab;
+    border-radius:10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    
+}
+#button{
+    width: 80%;
+    height: 9%;
+    border-radius: 10px;
+    background-color: rgb(103, 139, 238);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.cancel a{
+    text-decoration: none;
+    color: rgb(3, 49, 80);
+    font-weight: bold;
+    font-size: large;
+}
